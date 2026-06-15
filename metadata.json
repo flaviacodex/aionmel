@@ -1,0 +1,6 @@
+{
+  "name": "AION - Mel de Origem",
+  "description": "Landing page premium para a marca de mel de origem AION, focada na Safra 01.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
