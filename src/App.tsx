@@ -25,11 +25,11 @@ import { FAQAccordion } from './components/FAQAccordion';
 import { BotanicalBranch, BotanicalLogoMark, BotanicalSingleLeaf, AionBeeIcon } from './components/BotanicalDecoration';
 
 // Imported generated assets paths
-const aionHoneyJar = "/src/assets/images/aion_sensorial_hero_final_portuguese_1781485096392.jpg";
-const landscapeSouthBrazil = "/src/assets/images/terroir_hills_1781238163494.jpg";
-const honeyDrippingSpoon = "/src/assets/images/honey_dripping_spoon_1781238130155.jpg";
-const beesOnHoneycomb = "/src/assets/images/bees_on_honeycomb_1781238145357.jpg";
-const permapiculturaBrandImage = "/src/assets/images/permapicultura_editorial_1781485897366.jpg";
+import aionHoneyJar from './assets/images/aion_sensorial_hero_final_portuguese_1781485096392.jpg';
+import landscapeSouthBrazil from './assets/images/terroir_hills_1781238163494.jpg';
+import honeyDrippingSpoon from './assets/images/honey_dripping_spoon_1781238130155.jpg';
+import beesOnHoneycomb from './assets/images/bees_on_honeycomb_1781238145357.jpg';
+import permapiculturaBrandImage from './assets/images/permapicultura_editorial_1781485897366.jpg';
 
 export default function App() {
   const [microActiveFeature, setMicroActiveFeature] = useState<string | null>(null);
